@@ -13,13 +13,13 @@ export class HomeComponent {
       this.tasks = JSON.parse(recoverData)
     }
   }
-  playerName: string = ""
+  userInput: string = ""
   tasks: string[] = [];
   selected: boolean = false
 
   ngOnInit(): void {}
   addTask() {
-    this.tasks.push(this.playerName)
+    this.tasks.push(this.userInput)
   }
   saveTask(){
     localStorage.setItem("tasks", JSON.stringify(this.tasks))

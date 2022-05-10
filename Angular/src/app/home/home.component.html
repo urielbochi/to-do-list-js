@@ -1,9 +1,14 @@
-<input [(ngModel)]="playerName" />
-<button (click)="addTask()">Adicionar</button>
-<button (click)="saveTask()">Salvar</button>
-<button (click)="removeAllTasks()">Remover todos</button>
-<ul>
-  <li *ngFor="let task of tasks; let index = index">
-    {{ task }} <button (click)="removeSelectedTask(index)">Remover</button>
-  </li>
-</ul>
+<div class="main__container">
+  <h1>Angular Task List</h1>
+  <input placeholder="Digite uma tarefa" [(ngModel)]="userInput" />
+  <div class="sub__container">
+    <button class="actionButtons" (click)="addTask()">Adicionar</button>
+    <button class="actionButtons" (click)="saveTask()">Salvar</button>
+    <button class="actionButtons" (click)="removeAllTasks()">Remover todos</button>
+  </div>
+  <ul class="list">
+    <li *ngFor="let task of tasks; let index = index">
+      {{ task }} <button class="remove__button" (click)="removeSelectedTask(index)">Remover</button>
+    </li>
+  </ul>
+</div>
