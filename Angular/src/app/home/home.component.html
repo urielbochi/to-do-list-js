@@ -1,0 +1,9 @@
+<input [(ngModel)]="playerName" />
+<button (click)="addTask()">Adicionar</button>
+<button (click)="saveTask()">Salvar</button>
+<button (click)="removeAllTasks()">Remover todos</button>
+<ul>
+  <li *ngFor="let task of tasks; let index = index">
+    {{ task }} <button (click)="removeSelectedTask(index)">Remover</button>
+  </li>
+</ul>

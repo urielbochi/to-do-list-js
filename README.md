@@ -1,8 +1,8 @@
-# [💻] Projeto To do List
+# [💻] Task List
 
-Projeto To do List - Trybe
+To do list / task list desenvolvidas para estudo de manipulação.
 
-Feito individualmente e usando HTML, CSS e JavaScript. Foi feito em abril de 2021 no workspace
-da trybe :)
+* Javascript Vanilla
+* Angular
+* React
 
-Link: https://urielbochi.github.io/to-do-list-js/
