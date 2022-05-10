@@ -1,7 +1,5 @@
-# [💻] Task List | To do List
+# Task List Angular
 
-To do list / task list desenvolvidas para estudo de manipulação.
+Desenvolvido para praticar Angular. Adicione uma tarefa, salve a lista e remova-a quando finalizar :)
 
-* Javascript Vanilla
-* Angular
-* React
+
