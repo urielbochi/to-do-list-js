@@ -1,7 +1,11 @@
-# [💻] Task List | To do List
+# [💻] Task List 
 
-To do list / task list desenvolvidas para estudo de manipulação.
+Projeto desenvolvido em 2021/04 na Trybe para estudo de manipulação com Javascript.
 
-* Javascript Vanilla
-* Angular
-* React
+* Javascript
+
+* DOM
+
+* Local Storage
+
+  
